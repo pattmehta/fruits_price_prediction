@@ -1,0 +1,101 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Area, production and farm gate value of marketed fruits","32100364","001-0009","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210036401",8;11,"CURRENT - a cube available to the public and that is current","Annual","1926-01-01","2021-01-01","4",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Estimates",,""
+"3","Commodity",10;11,""
+"4","Farm area, production, value",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"1","Atlantic provinces","[1]","2","1","t",,
+"1","Newfoundland and Labrador","[10]","3","2","",,
+"1","Maritime provinces","","4","2","t",,
+"1","Prince Edward Island","[11]","5","4","",,
+"1","Nova Scotia","[12]","6","4","",,
+"1","New Brunswick","[13]","7","4","",,
+"1","Quebec","[24]","8","1","",,
+"1","Ontario","[35]","9","1","",,
+"1","Manitoba","[46]","10","1","",,
+"1","Saskatchewan","[47]","11","1","",,
+"1","Alberta","[48]","12","1","",,
+"1","British Columbia","[59]","13","1","",,
+"2","Marketed production","","1","","",,
+"2","Farm gate value","","2","","",,
+"2","Average price per quart","","3","","t",,
+"2","Average price per pound","","4","","t",,
+"2","Average price per bushel","","5","","t",,
+"2","Cultivated area, total","","6","","",5,
+"2","Bearing area","","7","","",,
+"2","Total production","","8","","",,
+"3","Fresh apples","[114114111]","1","","",1;2,
+"3","Fresh blueberries","[1141114]","2","","",3;6,
+"3","Fresh grapes","[1141147]","3","","",7,
+"3","Fresh peaches","[114114411]","4","","",,
+"3","Fresh pears","[114114211]","5","","",,
+"3","Fresh plums and prune plums","[1141143]","6","","",,
+"3","Fresh raspberries","[114111211]","7","","",4,
+"3","Fresh strawberries","[114111111]","8","","",4,
+"3","Fresh apricots","[114114431]","9","","",,
+"3","Fresh sour cherries","[114114521]","10","","",,
+"3","Fresh sweet cherries","[114114511]","11","","",,
+"3","Fresh cranberries","[114111311]","12","","",,
+"3","Fresh nectarines","[114114421]","13","","",,
+"3","Fresh saskatoon berries","[114111551]","14","","",,
+"3","Fresh highbush blueberries","[114111411]","15","2","",,
+"3","Fresh lowbush blueberries","[114111421]","16","2","",,
+"3","Fresh Labrusca grapes","[114114711]","17","3","",,
+"3","Fresh vinifera, fresh French hybrid grapes","[114114721]","18","3","",,
+"3","Other fresh fruit, n.e.c.","[114114811]","19","","",10,
+"3","Fresh haskaps","[114111571]","20","","",,
+"3","Fresh currants","[114111561]","21","","",,
+"3","Fresh blackberries","[114111511]","22","","",,
+"3","Total fresh fruit","","23","","",9,
+"4","Bushels","","1","","t",,
+"4","Quarts","","2","","t",,
+"4","Pounds","","3","","t",,
+"4","Tons","","4","","",,
+"4","Dollars","","5","","",,
+"4","Acres","","6","","",,
+"4","Metric tonnes","","7","","",,
+"4","Hectares","","8","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3407","Fruits and Vegetables Survey"
+
+"Subject Code","Subject Name"
+"32","Agriculture and food"
+
+"Note ID",Note
+8,"Data expressed in imperial and metric units of measure may not always be equivalent due to rounding."
+11,"Commodity names have been adjusted to align with the Variant of North American Product Classification System (NAPCS) Canada 2017 Version 2.0 - Agricultural goods. These commodities include fresh and processed fruits. 
+"
+5,"Cultivated area includes bearing and non-bearing area."
+10,"Prior to 2018, fresh blackberries, fresh currants and fresh haskaps were included in the other fresh fruits category.   As of 2018 they are published in their own categories in this table."
+1,"Conversion factors used for 1 bushel of apples from 1926 to 1964 equals 45.0 pounds, 1965 equals 44.5 pounds, 1966 equals 44.0 pounds, 1967 equals 43.5 pounds, 1968 equals 43.0 pounds, 1969 equals 42.5 pounds, from 1970 on equals 42.0 pounds."
+2,"The value of the crop from 1984 onward is not comparable to previous years because of a change in reporting techniques for New Brunswick only."
+3,"Prior to 1987, total production includes figures from on-farm land and unmanaged Crown land. As of 1987, only on-farm production and value are available. Unmanaged Crown land is excluded beginning in 1987."
+6,"Fresh blueberries includes fresh lowbush blueberries and fresh highbush blueberries."
+7,"Fresh grapes includes fresh Labrusca grapes and fresh vinifera, fresh French hybrid grapes."
+4,"As of April 27, 1983, revisions back to 1926 in British Columbia were carried out to reflect that 1 quart equals 1.25 pounds."
+9,"“Total fresh fruits” is equivalent to the sum of all North American Product Classification System variant codes found in this table."
+
+"Correction ID","Correction Date","Correction Note"
