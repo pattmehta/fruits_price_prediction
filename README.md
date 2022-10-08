@@ -2,6 +2,8 @@
 
 > <b>Dataset from [Statistics Canada](https://www150.statcan.gc.ca)</b> - Area production and farm gate value of marketed fruits
 
+> <b>Blog post link for this project -</b> [Data Science Blog Post](https://pattmehta.github.io/)
+
 ## How to use this notebook
 
 Here are the instructions to use this notebook:
