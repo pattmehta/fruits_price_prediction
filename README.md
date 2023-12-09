@@ -158,7 +158,7 @@ The answer is true for the last question we wanted to address from the dataset. 
 As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine.
 
 ### year of reference
-The max value for the REF_DATE column in the dataset is very low (1981) as seen previously in the plot. This could cause problems, as REF_DATE is not relevant, and we want to predict the latest prices of the commodity. At the moment, however, the prediction for the price seems to be working fine in terms of the linear relation. In a nutshell, we should query the dataset before we create the model, to ensure that the values of interest meet the expectations. Otherwise the result that we obtain might not be relevant.
+The min value for the REF_DATE column in the dataset is very low (1981) as seen previously in the plot. This could cause problems, as REF_DATE is not relevant, and we want to predict the latest prices of the commodity. At the moment, however, the prediction for the price seems to be working fine in terms of the linear relation. In a nutshell, we should query the dataset before we create the model, to ensure that the values of interest meet the expectations. Otherwise the result that we obtain might not be relevant.
 
 > Subset of dataframe, after sorting values using <i>REF_DATE</i>
 
@@ -233,3 +233,9 @@ To plot the price, production, and cultivation values, corresponding dataframe h
 The data selected for plot left out some estimates such as farm gate value, and bearing area. These values can be added to the plots, and might be used to address other questions. Farm gate value, for example, is the price a farmer first gets paid for the commodity, and is completely separate from the value at which the commodity gets sold in the market.
 
 ![plot with estimates](img/estimates_piechart_1.png "plot with proportion for price, production, and cultivation")
+
+
+## What's new
+Under the section `Using plots for visualizations`, the graphic for commodity comparisons (*also used in the article header on [Data Science Blog Post](https://pattmehta.github.io/)*) is updated. It was previously generated using a line plot, which caused a visual glitch. This has been updated to use a discrete bar plot instead for a better visual representation.
+
+![commodity comparisons update](img/farm_project_nice_update.png "commodity comparisons updated to use a bar plot")
